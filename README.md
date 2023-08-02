@@ -1,6 +1,6 @@
-# encompass-development-assistant README
+# Encompass Pathfinder VSCode Extension README
 
-This is a work in progress to create a vscode extension to provide language and coding support for the Encompass mortgage software. This project is not officially affiliated with ICE Mortgage, the Encompass development team or any of their partners/affiliates.
+This is a work in progress to create a vscode extension to provide language and coding support for the Encompass mortgage software. This project is not affiliated with ICE Mortgage, the Encompass development team or any of their partners/affiliates.
 
 ## Features
 
@@ -9,8 +9,8 @@ Currently Implemented: <br>
 - Basic Syntax highlighting for standard VB keywords and ones specific to Encompass itself <br>
 - Snippets library of commonly used commands IE "Loan.Fields().Value", "Macro.GetField()", etc. Due to brackets not being available for use in snippets, "FD" can be used to trigger brackets for business rule code. Additionally, some Encompass specific methods have been added with the goal being to eventually include the entirty of the Encompass Objects reference data to assist with writing more complex rules and code.
 
-## Upcoming Features
-Ability for users to provide FieldIDs and Descriptions to be used for looking up fieldID information from directly within their editor. Import form will be provided to facilitate formatting the export correctly.
+Roadmap: <br>
+- FieldID lookup within certain ID keywords. Users will provide an export file which contains all Standard, Virtual and Custom Fields. The export file will inform the extension of fields description and type which can be used to search/retrieve FieldIDs when the snippet is triggered.
 
 ## Requirements
 
