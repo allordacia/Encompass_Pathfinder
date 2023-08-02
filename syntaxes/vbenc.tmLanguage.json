@@ -1,0 +1,41 @@
+{
+  "scopeName": "source.vbenc",
+  "patterns": [
+    {
+      "match": "\\b(Sub)\\b\\s+(\\w+)",
+      "name": "meta.subroutine.vbenc",
+      "captures": {
+        "1": {
+          "name": "keyword.control.sub.vbenc"
+        },
+        "2": {
+          "name": "entity.name.function.vbenc"
+        }
+      }
+    },
+    {
+      "match": "\\b(Function)\\b\\s+(\\w+)",
+      "name": "meta.function.vbenc",
+      "captures": {
+        "1": {
+          "name": "keyword.control.function.vbenc"
+        },
+        "2": {
+          "name": "entity.name.function.vbenc"
+        }
+      }
+    },
+    {
+      "match": "\\b(If|Else|ElseIf|End If|Then|Select|Case|End Select|For|To|Step|Next|While|Wend|Do|Loop|Until|Exit Do|Exit For|Exit Function|Exit Property|Exit Sub|Exit While|End While|End Loop|End Function|End Sub|End Property|End Class|End Module|End Namespace|End Enum|End Structure|End Interface|End If|End Select|End Try|End Using|End With|End Get|End Set|End AddHandler|End RemoveHandler|End RaiseEvent|End Property|End Sub|End Function|End Operator|End Get|End Set|End AddHandler|End RemoveHandler|End RaiseEvent|End Property|End Sub|End Function|End Operator|End Class|End Module|End Namespace|End Enum|End Structure|End Interface)\\b",
+      "name": "keyword.control.vbenc"
+    },
+    {
+      "match": "\\b(Dim|As)\\b",
+      "name": "keyword.declaration.vbenc"
+    },
+    {
+      "match": "\\b(Object|String|Integer|Boolean|Array|Char|Date|Decimal|Double|Long|Short|Byte)\\b"
+      "name": "keyword.type.vbenc"
+    }
+  ]
+}

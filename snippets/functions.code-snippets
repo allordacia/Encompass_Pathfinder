@@ -1,0 +1,18 @@
+{
+    "Return numerals from provided text": {
+        "prefix": "Function GetNum(",
+        "body": [
+            "Function GetNum(ByVal id As String) As String",
+            "Dim num As String = Nothing",
+            "For Each ch As Char In id",
+            "    If Char.IsDigit(ch) Then",
+            "        num = num + ch",
+            "    End If",
+            "Next",
+            "",
+            "Return num",
+            "",
+            "End Function"
+        ],
+    }
+}

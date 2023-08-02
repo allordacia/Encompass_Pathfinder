@@ -1,0 +1,46 @@
+{
+  "name": "encompass-development-assistant",
+  "displayName": "Encompass-Development-Assistant",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "vbenc",
+        "aliases": ["VBENC", "vbenc"],
+        "extensions": [".vbenc"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "vbenc",
+        "scopeName": "source.vbenc",
+        "path": "./syntaxes/vbenc.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "vbenc",
+        "path": "./snippets/snippets.code-snippets"
+      },
+      {
+        "language": "vbenc",
+        "path": "./snippets/functions.code-snippets"
+      }
+    ],
+    "themes": [
+      {
+        "label": "My Custom Theme",
+        "uiTheme": "vs-dark",
+        "path": "./theme/vbenc-theme.json"
+      }
+    ]
+  }
+}

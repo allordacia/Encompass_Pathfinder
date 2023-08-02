@@ -1,0 +1,43 @@
+{
+    "Insert Loan Field with Function": {
+      "prefix": "Loan.Fields(",
+      "body": [
+        "Loan.Fields(\"${1:fieldID}\").Value"
+      ],
+      "description": "Inserts a Loan Field using the Loan.Fields() function"
+    },
+    "Insert Loan Field with Brackets": {
+      "prefix": "FD",
+      "body": [
+        "[${1:fieldID}]"
+      ],
+      "description": "Inserts a Loan Field using [brackets]"
+    },
+    "Insert Macro.GetField(\"FieldID\")": {
+      "prefix": "Macro.GetField(\"",
+      "body": [
+        "Macro.GetField(\"${1:fieldID}\")"
+      ],
+      "description": "Inserts a Macro.GetField(\"FieldID\")"
+    },
+    "Insert Macro.SetField(\"FieldID\", \"Value\")": {
+      "prefix": "Macro.SetField(\"",
+      "body": [
+        "Macro.SetField(\"${1:fieldID}\", \"${2:value}\")"
+      ],
+      "description": "Inserts a Macro.SetField(\"FieldID\", \"Value\")"
+    },
+    "OptionList for dropdownBox": {
+        "prefix": "optionList As",
+        "body": [
+            "New System.Collections.Generic.List(Of DropdownOption)()"
+        ],
+    },
+    "Add New Option for DropdownBox": {
+        "prefix": "optionList.Add(",
+        "body": [
+            "New DropdownOption(\"${1:optionID}\", \"${2:optionValue}\")"
+        ],
+    }
+  }
+  
