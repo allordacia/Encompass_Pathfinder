@@ -4,7 +4,6 @@ This is a work in progress to create a vscode extension to provide language and 
 
 ## Features
 
-Version 0.0.1:
     - Basic Language support for a custom "vbenc" file extension type. Eventually this will be split out into two different language extensions specific to "Business Rule" and "IFB" types due to the unique requirements and limitations of both editor environments.
     - Basic Syntax highlighting for standard VB keywords and ones specific to Encompass itself
     - Snippets library of commonly used commands IE "Loan.Fields().Value", "Macro.GetField()", etc. Due to brackets not being available for use in snippets, "FD" can be used to trigger brackets for business rule code. Additionally, some Encompass specific methods have been added with the goal being to eventually include the entirty of the Encompass Objects reference data to assist with writing more complex rules and code. 
