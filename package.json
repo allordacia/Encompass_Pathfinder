@@ -33,6 +33,10 @@
       {
         "language": "vbenc",
         "path": "./snippets/functions.code-snippets"
+      },
+      {
+        "language": "vbenc",
+        "path": "./snippets/encompassObjects.code-snippets"
       }
     ],
     "themes": [

@@ -2,7 +2,7 @@
   "scopeName": "source.vbenc",
   "patterns": [
     {
-      "match": "\\b(Sub)\\b\\s+(\\w+)",
+      "match": "\\b([Ss][Uu][Bb])\\b\\s+(\\w+)",
       "name": "meta.subroutine.vbenc",
       "captures": {
         "1": {
@@ -14,7 +14,7 @@
       }
     },
     {
-      "match": "\\b(Function)\\b\\s+(\\w+)",
+      "match": "\\b([Ff][Uu][Nn][Cc][Tt][Ii][Oo][Nn])\\b\\s+(\\w+)",
       "name": "meta.function.vbenc",
       "captures": {
         "1": {
@@ -26,16 +26,20 @@
       }
     },
     {
-      "match": "\\b(If|Else|ElseIf|End If|Then|Select|Case|End Select|For|To|Step|Next|While|Wend|Do|Loop|Until|Exit Do|Exit For|Exit Function|Exit Property|Exit Sub|Exit While|End While|End Loop|End Function|End Sub|End Property|End Class|End Module|End Namespace|End Enum|End Structure|End Interface|End If|End Select|End Try|End Using|End With|End Get|End Set|End AddHandler|End RemoveHandler|End RaiseEvent|End Property|End Sub|End Function|End Operator|End Get|End Set|End AddHandler|End RemoveHandler|End RaiseEvent|End Property|End Sub|End Function|End Operator|End Class|End Module|End Namespace|End Enum|End Structure|End Interface)\\b",
+      "match": "\\b([Ii][Ff]|([Ee][Ll][Ss][Ee][Ii][Ff]?)|[Ee][Nn][Dd]|[Ii][Ff]|[Tt][Hh][Ee][Nn]|[Ss][Ee][Ll][Ee][Cc][Tt]|[Cc][Aa][Ss][Ee]|[Ee][Nn][Dd] [Ss][Ee][Ll][Ee][Cc][Tt]|[Ff][Oo][Rr]|[Tt][Oo]|[Ss][Tt][Ee][Pp]|[Nn][Ee][Xx][Tt]|[Ww][Hh][Ii][Ll][Ee]|[Ww][Ee][Nn][Dd]|[Dd][Oo]|[Ll][Oo][Oo][Pp]|[Uu][Nn][Tt][Ii][Ll]|([Ee][Xx][Ii][Tt] [Dd][Oo]|[Ff][Oo][Rr]|[Ff][Uu][Nn][Cc][Tt][Ii][Oo][Nn]|[Pp][Rr][Oo][Pp][Ee][Rr][Tt][Yy]|[Ss][Uu][Bb]|[Ww][Hh][Ii][Ll][Ee]|[Ww][Hh][Ii][Ll][Ee]|[Ll][Oo][Oo][Pp]|[Ff][Uu][Nn][Cc][Tt][Ii][Oo][Nn]|[Ss][Uu][Bb]|[Pp][Rr][Oo][Pp][Ee][Rr][Tt][Yy]|[Cc][Ll][Aa][Ss][Ss]|[Mm][Oo][Dd][Uu][Ll][Ee]|[Nn][Aa][Mm][Ee][Ss][Pp][Aa][Cc][Ee]|[Ee][Nn][Uu][Mm]|[Ss][Tt][Rr][Uu][Cc][Tt][Uu][Rr][Ee]|[Ii][Nn][Tt][Ee][Rr][Ff][Aa][Cc][Ee]|[Gg][Ee][Tt]|[Ss][Ee][Tt]|[Aa][Dd][Dd][Hh][Aa][Nn][Dd][Ll][Ee][Rr]|[Rr][Ee][Mm][Oo][Vv][Ee][Hh][Aa][Nn][Dd][Ll][Ee][Rr]|[Rr][Aa][Ii][Ss][Ee][Ee][Vv][Ee][Nn][Tt]|[Pp][Rr][Oo][Pp][Ee][Rr][Tt][Yy]|[Ss][Uu][Bb]|[Ff][Uu][Nn][Cc][Tt][Ii][Oo][Nn]|[Oo][Pp][Ee][Rr][Aa][Tt][Oo][Rr]|[Gg][Ee][Tt]|[Ss][Ee][Tt]|[Aa][Dd][Dd][Hh][Aa][Nn][Dd][Ll][Ee][Rr]|[Rr][Ee][Mm][Oo][Vv][Ee][Hh][Aa][Nn][Dd][Ll][Ee][Rr]|[Rr][Aa][Ii][Ss][Ee][Ee][Vv][Ee][Nn][Tt]|[Pp][Rr][Oo][Pp][Ee][Rr][Tt][Yy]|[Ss][Uu][Bb]|[Ff][Uu][Nn][Cc][Tt][Ii][Oo][Nn]|[Oo][Pp][Ee][Rr][Aa][Tt][Oo][Rr]|[Cc][Ll][Aa][Ss][Ss]|[Mm][Oo][Dd][Uu][Ll][Ee]|[Nn][Aa][Mm][Ee][Ss][Pp][Aa][Cc][Ee]|[Ee][Nn][Uu][Mm]|[Ss][Tt][Rr][Uu][Cc][Tt][Uu][Rr][Ee]|[Ii][Nn][Tt][Ee][Rr][Ff][Aa][Cc][Ee]))\\b",
       "name": "keyword.control.vbenc"
     },
     {
-      "match": "\\b(Dim|As)\\b",
+      "match": "\\b([Oo][Bb][Jj][Ee][Cc][Tt]|[Ss][Tt][Rr][Ii][Nn][Gg]|[Ii][Nn][Tt][Ee][Gg][Ee][Rr]|[Bb][Oo][Oo][Ll][Ee][Aa][Nn]|[Aa][Rr][Rr][Aa][Yy]|[Cc][Hh][Aa][Rr]|[Dd][Aa][Tt][Ee]|[Dd][Ee][Cc][Ii][Mm][Aa][Ll]|[Dd][Oo][Uu][Bb][Ll][Ee]|[Ll][Oo][Nn][Gg]|[Ss][Hh][Oo][Rr][Tt]|[Bb][Yy][Tt][Ee]|[Tt][Ee][Xx][Tt][Bb][Oo][Xx]|[Cc][Hh][Ee][Cc][Kk][Bb][Oo][Xx]|[Dd][Rr][Oo][Pp][Dd][Oo][Ww][Nn][Bb][Oo][Xx]|[Dd][Rr][Oo][Pp][Dd][Oo][Ww][Nn][Ee][Dd][Ii][Tt][Bb][Oo][Xx]|[Rr][Aa][Dd][Ii][Oo] [Bb][Uu][Tt][Tt][Oo][Nn]|[Pp][Aa][Nn][Ee][Ll]|[Ii][Mm][Aa][Gg][Ee]|[Ii][Mm][Aa][Gg][Ee] [Bb][Uu][Tt][Tt][Oo][Nn]|[Bb][Uu][Tt][Tt][Oo][Nn]|[Mm][Uu][Ll][Tt][Ii][Ll][Ii][Nn][Ee] [Tt][Ee][Xx][Tt][Bb][Oo][Xx]|[Pp][Ii][Cc][Kk] [Ll][Ii][Ss][Tt])\\b",
+      "name": "keyword.type.vbenc"
+    },
+    {
+      "match": "\\b([Dd][Ii][Mm])\\b",
       "name": "keyword.declaration.vbenc"
     },
     {
-      "match": "\\b(Object|String|Integer|Boolean|Array|Char|Date|Decimal|Double|Long|Short|Byte)\\b"
-      "name": "keyword.type.vbenc"
+      "match": "\\b([Ee][Nn][Cc][Oo][Mm][Pp][Aa][Ss][Ss])\\b",
+      "name": "keyword.encompass.vbenc"
     }
   ]
 }

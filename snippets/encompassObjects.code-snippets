@@ -1,0 +1,44 @@
+{
+    "TextBox .text": {
+        "prefix": "tb.",
+        "body": [
+            "${1:tb}.Text = \"${2:string}\"",
+        ]
+    },
+    "TextBox .text = Loan.Fields()": {
+        "prefix": "tb.",
+        "body": [
+            "${1:tb}.Text = Loan.Fields(\"${2:fieldID}\").Value",
+        ]
+    },
+    "TextBox .text = Macro.GetField()": {
+        "prefix": "tb.",
+        "body": [
+            "${1:tb}.Text = Macro.GetField(\"${2:fieldID}\")",
+        ]
+    },
+    "TextBox .ControlID": {
+        "prefix": "tb.",
+        "body": [
+            "${1:tb}.ControlID = \"${2:controlID}\"",
+        ]
+    },
+    "TextBox .BackColor": {
+        "prefix": "tb.",
+        "body": [
+            "${1:tb}.BackColor = Color.${2:color}",
+        ]
+    },
+    "TextBox .ForeColor": {
+        "prefix": "tb.",
+        "body": [
+            "${1:tb}.ForeColor = Color.${2:color}",
+        ]
+    },
+    "TextBox .Font": {
+        "prefix": "tb.",
+        "body": [
+            "${1:tb}.Font = New HTMLFont(\"${2:font}\", ${3:size})",
+        ]
+    },
+}
