@@ -41,4 +41,17 @@
             "${1:tb}.Font = New HTMLFont(\"${2:font}\", ${3:size})",
         ]
     },
+    "TextBox .Enabled": {
+        "prefix": "tb.",
+        "body": [
+            "${1:tb}.Enabled = ${2:True}",
+        ]
+    },
+    "TextBox .Visible": {
+        "prefix": "tb.",
+        "body": [
+            "${1:tb}.Visible = ${2:True}",
+        ]
+    },
+
 }

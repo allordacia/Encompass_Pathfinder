@@ -7,7 +7,8 @@
     "vscode": "^1.80.0"
   },
   "categories": [
-    "Snippets"
+    "Snippets",
+    "Other"
   ],
   "contributes": {
     "languages": [
@@ -45,6 +46,42 @@
         "uiTheme": "vs-dark",
         "path": "./theme/vbenc-theme.json"
       }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "sqlSearch",
+          "title": "SQL Search",
+          "icon": "media/icon.svg"
+        }
+      ]
+    },
+    "views": {
+      "sqlSearch": [
+        {
+          "id": "sqlSearchView",
+          "name": "Search Bar"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "sqlSearch.showPanel",
+        "title": "Show SQL Search Panel"
+      }
     ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "postinstall": "node ./node_modules/vscode/bin/install"
+  },
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "@types/vscode": "^1.60.0",
+    "typescript": "^4.0.0",
+    "vscode": "^1.1.37"
   }
 }
+

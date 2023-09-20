@@ -1,0 +1,572 @@
+{
+    "ExternalOrganization .Address": {
+        "prefix": "eo.",
+        "body": [
+            "eo.Address",
+        ]
+    },
+    "ExternalOrganization .AddToWatchlist": {
+        "prefix": "eo.",
+        "body": [
+            "eo.AddToWatchlist"
+        ]
+    },
+    "ExternalOrganization .ApplicationDate": {
+        "prefix": "eo.",
+        "body": [
+            "eo.ApplicationDate"
+        ]
+    },
+    "ExternalOrganization .ApprovedDate": {
+        "prefix": "eo.",
+        "body": [
+            "eo.ApprovedDate"
+        ]
+    },
+    "ExternalOrganization .AvailableAEs": {
+        "prefix": "eo.",
+        "body": [
+            "eo.AvailableAEs"
+        ]
+    },
+    "ExternalOrganization .Branch": {
+        "prefix": "eo.",
+        "body": [
+            "eo.Branch"
+        ]
+    },
+    "ExternalOrganization .CanAcceptFirstPayments": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CanAcceptFirstPayments"
+        ]
+    },
+    "ExternalOrganization .CanCloseInOwnName": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CanCloseInOwnName"
+        ]
+    },
+    "ExternalOrganization .CanFundInOwnName": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CanFundInOwnName"
+        ]
+    },
+    "ExternalOrganization .City": {
+        "prefix": "eo.",
+        "body": [
+            "eo.City"
+        ]
+    },
+    "ExternalOrganization .CommitmentBestEffortsAvailableAmount": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CommitmentBestEffortsAvailableAmount"
+        ]
+    },
+    "ExternalOrganization .CommitmentMandatory": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CommitmentMandatory"
+        ]
+    },
+    "ExternalOrganization .CommitmentMandatoryAvailableAmount": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CommitmentMandatoryAvailableAmount"
+        ]
+    },
+    "ExternalOrganization .CommitmentMessage": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CommitmentMessage"
+        ]
+    },
+    "ExternalOrganization .CommitmentPolicy": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CommitmentPolicy"
+        ]
+    },
+    "ExternalOrganization .CommitmentUseBestEffort": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CommitmentUseBestEffort"
+        ]
+    },
+    "ExternalOrganization .CommitmentUseBestEffortLimited": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CommitmentUseBestEffortLimited"
+        ]
+    },
+    "ExternalOrganization .Company": {
+        "prefix": "eo.",
+        "body": [
+            "eo.Company"
+        ]
+    },
+    "ExternalOrganization .CompanyDBAName": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CompanyDBAName"
+        ]
+    },
+    "ExternalOrganization .CompanyLegalName": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CompanyLegalName"
+        ]
+    },
+    "ExternalOrganization .CompanyNetWorth": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CompanyNetWorth"
+        ]
+    },
+    "ExternalOrganization .CompanyRating": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CompanyRating"
+        ]
+    },
+    "ExternalOrganization .CorrespondentTradePolicy": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CorrespondentTradePolicy"
+        ]
+    },
+    "ExternalOrganization .CurrentStatus": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CurrentStatus"
+        ]
+    },
+    "ExternalOrganization .CurrentStatusDate": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CurrentStatusDate"
+        ]
+    },
+    "ExternalOrganization .CustomFields": {
+        "prefix": "eo.",
+        "body": [
+            "eo.CustomFields"
+        ]
+    },
+    "ExternalOrganization .DateOfIncorporation": {
+        "prefix": "eo.",
+        "body": [
+            "eo.DateOfIncorporation"
+        ]
+    },
+    "ExternalOrganization .DisabledLogin": {
+        "prefix": "eo.",
+        "body": [
+            "eo.DisabledLogin"
+        ]
+    },
+    "ExternalOrganization .DUSponsored": {
+        "prefix": "eo.",
+        "body": [
+            "eo.DUSponsored"
+        ]
+    },
+    "ExternalOrganization .Email": {
+        "prefix": "eo.",
+        "body": [
+            "eo.Email"
+        ]
+    },
+    "ExternalOrganization .EmailForLockInfo": {
+        "prefix": "eo.",
+        "body": [
+            "eo.EmailForLockInfo"
+        ]
+    },
+    "ExternalOrganization .EmailForRateSheet": {
+        "prefix": "eo.",
+        "body": [
+            "eo.EmailForRateSheet"
+        ]
+    },
+    "ExternalOrganization .EntityType": {
+        "prefix": "eo.",
+        "body": [
+            "eo.EntityType"
+        ]
+    },
+    "ExternalOrganization .EOCompany": {
+        "prefix": "eo.",
+        "body": [
+            "eo.EOCompany"
+        ]
+    },
+    "ExternalOrganization .EOExpirationDate": {
+        "prefix": "eo.",
+        "body": [
+            "eo.EOExpirationDate"
+        ]
+    },
+    "ExternalOrganization .EOPolicyNumber": {
+        "prefix": "eo.",
+        "body": [
+            "eo.EOPolicyNumber"
+        ]
+    },
+    "ExternalOrganization .EPPSCompModel": {
+        "prefix": "eo.",
+        "body": [
+            "eo.EPPSCompModel"
+        ]
+    },
+    "ExternalOrganization .EPPSRateSheet": {
+        "prefix": "eo.",
+        "body": [
+            "eo.EPPSRateSheet"
+        ]
+    },
+    "ExternalOrganization .EPPSUserName": {
+        "prefix": "eo.",
+        "body": [
+            "eo.EPPSUserName"
+        ]
+    },
+    "ExternalOrganization .ExternalID": {
+        "prefix": "eo.",
+        "body": [
+            "eo.ExternalID"
+        ]
+    },
+    "ExternalOrganization .FaxForLockInfo": {
+        "prefix": "eo.",
+        "body": [
+            "eo.FaxForLockInfo"
+        ]
+    },
+    "ExternalOrganization .FaxForRateSheet": {
+        "prefix": "eo.",
+        "body": [
+            "eo.FaxForRateSheet"
+        ]
+    },
+    "ExternalOrganization .FaxNumber": {
+        "prefix": "eo.",
+        "body": [
+            "eo.FaxNumber"
+        ]
+    },
+    "ExternalOrganization .FinancialsLastUpdate": {
+        "prefix": "eo.",
+        "body": [
+            "eo.FinancialsLastUpdate"
+        ]
+    },
+    "ExternalOrganization .FinancialsPeriod": {
+        "prefix": "eo.",
+        "body": [
+            "eo.FinancialsPeriod"
+        ]
+    },
+    "ExternalOrganization .ID": {
+        "prefix": "eo.",
+        "body": [
+            "eo.ID"
+        ]
+    },
+    "ExternalOrganization .Incorporated": {
+        "prefix": "eo.",
+        "body": [
+            "eo.Incorporated"
+        ]
+    },
+    "ExternalOrganization .InheritProductAndPricing": {
+        "prefix": "eo.",
+        "body": [
+            "eo.InheritProductAndPricing"
+        ]
+    },
+    "ExternalOrganization .IsCommitmentDeliveryAOT": {
+        "prefix": "eo.",
+        "body": [
+            "eo.IsCommitmentDeliveryAOT"
+        ]
+    },
+    "ExternalOrganization .IsCommitmentDeliveryBulk": {
+        "prefix": "eo.",
+        "body": [
+            "eo.IsCommitmentDeliveryBulk"
+        ]
+    },
+    "ExternalOrganization .IsCommitmentDeliveryBulkAOT": {
+        "prefix": "eo.",
+        "body": [
+            "eo.IsCommitmentDeliveryBulkAOT"
+        ]
+    },
+    "ExternalOrganization .IsCommitmentDeliveryCoIssue": {
+        "prefix": "eo.",
+        "body": [
+            "eo.IsCommitmentDeliveryCoIssue"
+        ]
+    },
+    "ExternalOrganization .IsCommitmentDeliveryForward": {
+        "prefix": "eo.",
+        "body": [
+            "eo.IsCommitmentDeliveryForward"
+        ]
+    },
+    "ExternalOrganization .IsCommitmentDeliveryIndividual": {
+        "prefix": "eo.",
+        "body": [
+            "eo.IsCommitmentDeliveryIndividual"
+        ]
+    },
+    "ExternalOrganization .IsCommitmentDeliveryLiveTrade": {
+        "prefix": "eo.",
+        "body": [
+            "eo.IsCommitmentDeliveryLiveTrade"
+        ]
+    },
+    "ExternalOrganization .IsTestAccount": {
+        "prefix": "eo.",
+        "body": [
+            "eo.IsTestAccount"
+        ]
+    },
+    "ExternalOrganization .LastLoanSubmitted": {
+        "prefix": "eo.",
+        "body": [
+            "eo.LastLoanSubmitted"
+        ]
+    },
+    "ExternalOrganization .Licensing": {
+        "prefix": "eo.",
+        "body": [
+            "eo.Licensing"
+        ]
+    },
+    "ExternalOrganization .LoanTypes": {
+        "prefix": "eo.",
+        "body": [
+            "eo.LoanTypes"
+        ]
+    },
+    "ExternalOrganization .MaxCommitmentAmount": {
+        "prefix": "eo.",
+        "body": [
+            "eo.MaxCommitmentAmount"
+        ]
+    },
+    "ExternalOrganization .MaxCommitmentAuthority": {
+        "prefix": "eo.",
+        "body": [
+            "eo.MaxCommitmentAuthority"
+        ]
+    },
+    "ExternalOrganization .MERSOriginatingORGID": {
+        "prefix": "eo.",
+        "body": [
+            "eo.MERSOriginatingORGID"
+        ]
+    },
+    "ExternalOrganization .MultiFactorAuthentication": {
+        "prefix": "eo.",
+        "body": [
+            "eo.MultiFactorAuthentication"
+        ]
+    },
+    "ExternalOrganization .NmlsId": {
+        "prefix": "eo.",
+        "body": [
+            "eo.NmlsId"
+        ]
+    },
+    "ExternalOrganization .NoAfterHourWires": {
+        "prefix": "eo.",
+        "body": [
+            "eo.NoAfterHourWires"
+        ]
+    },
+    "ExternalOrganization .OrganizationID": {
+        "prefix": "eo.",
+        "body": [
+            "eo.OrganizationID"
+        ]
+    },
+    "ExternalOrganization .OrganizationName": {
+        "prefix": "eo.",
+        "body": [
+            "eo.OrganizationName"
+        ]
+    },
+    "ExternalOrganization .OrganizationType": {
+        "prefix": "eo.",
+        "body": [
+            "eo.OrganizationType"
+        ]
+    },
+    "ExternalOrganization .OtherEntityDescription": {
+        "prefix": "eo.",
+        "body": [
+            "eo.OtherEntityDescription"
+        ]
+    },
+    "ExternalOrganization .OwnerName": {
+        "prefix": "eo.",
+        "body": [
+            "eo.OwnerName"
+        ]
+    },
+    "ExternalOrganization .ParentOrganizationID": {
+        "prefix": "eo.",
+        "body": [
+            "eo.ParentOrganizationID"
+        ]
+    },
+    "ExternalOrganization .PhoneNumber": {
+        "prefix": "eo.",
+        "body": [
+            "eo.PhoneNumber"
+        ]
+    },
+    "ExternalOrganization .PMLCustomerCode": {
+        "prefix": "eo.",
+        "body": [
+            "eo.PMLCustomerCode"
+        ]
+    },
+    "ExternalOrganization .PMLPassword": {
+        "prefix": "eo.",
+        "body": [
+            "eo.PMLPassword"
+        ]
+    },
+    "ExternalOrganization .PMLUserName": {
+        "prefix": "eo.",
+        "body": [
+            "eo.PMLUserName"
+        ]
+    },
+    "ExternalOrganization .PriceGroup": {
+        "prefix": "eo.",
+        "body": [
+            "eo.PriceGroup"
+        ]
+    },
+    "ExternalOrganization .PriceGroupBroker": {
+        "prefix": "eo.",
+        "body": [
+            "eo.PriceGroupBroker"
+        ]
+    },
+    "ExternalOrganization .PriceGroupDelegated": {
+        "prefix": "eo.",
+        "body": [
+            "eo.PriceGroupDelegated"
+        ]
+    },
+    "ExternalOrganization .PriceGroupNonDelegated": {
+        "prefix": "eo.",
+        "body": [
+            "eo.PriceGroupNonDelegated"
+        ]
+    },
+    "ExternalOrganization .PrimaryManager": {
+        "prefix": "eo.",
+        "body": [
+            "eo.PrimaryManager"
+        ]
+    },
+    "ExternalOrganization .PrimaryManagerExternalUserID": {
+        "prefix": "eo.",
+        "body": [
+            "eo.PrimaryManagerExternalUserID"
+        ]
+    },
+    "ExternalOrganization .PrimarySalesRep": {
+        "prefix": "eo.",
+        "body": [
+            "eo.PrimarySalesRep"
+        ]
+    },
+    "ExternalOrganization .PrimarySalesRepAssignedDate": {
+        "prefix": "eo.",
+        "body": [
+            "eo.PrimarySalesRepAssignedDate"
+        ]
+    },
+    "ExternalOrganization .RequestLEDisclosures": {
+        "prefix": "eo.",
+        "body": [
+            "eo.RequestLEDisclosures"
+        ]
+    },
+    "ExternalOrganization .State": {
+        "prefix": "eo.",
+        "body": [
+            "eo.State"
+        ]
+    },
+    "ExternalOrganization .StateIncorp": {
+        "prefix": "eo.",
+        "body": [
+            "eo.StateIncorp"
+        ]
+    },
+    "ExternalOrganization .TaxID": {
+        "prefix": "eo.",
+        "body": [
+            "eo.TaxID"
+        ]
+    },
+    "ExternalOrganization .Timezone": {
+        "prefix": "eo.",
+        "body": [
+            "eo.Timezone"
+        ]
+    },
+    "ExternalOrganization .TypeOfEntity": {
+        "prefix": "eo.",
+        "body": [
+            "eo.TypeOfEntity"
+        ]
+    },
+    "ExternalOrganization .UnderwritingType": {
+        "prefix": "eo.",
+        "body": [
+            "eo.UnderwritingType"
+        ]
+    },
+    "ExternalOrganization .UseSSNFormat": {
+        "prefix": "eo.",
+        "body": [
+            "eo.UseSSNFormat"
+        ]
+    },
+    "ExternalOrganization .Website": {
+        "prefix": "eo.",
+        "body": [
+            "eo.Website"
+        ]
+    },
+    "ExternalOrganization .YrsInBusiness": {
+        "prefix": "eo.",
+        "body": [
+            "eo.YrsInBusiness"
+        ]
+    },
+    "ExternalOrganization .Zip": {
+        "prefix": "eo.",
+        "body": [
+            "eo.Zip"
+        ]
+    },
+    "ExternalOrganization New ": {
+        "prefix": "as ExternalOrganization ",
+        "body": [
+            " = New ExternalOrganization()"
+        ]
+    },
+}
