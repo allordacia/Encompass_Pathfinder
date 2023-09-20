@@ -14,8 +14,13 @@
     "languages": [
       {
         "id": "vbenc",
-        "aliases": ["VBENC", "vbenc"],
-        "extensions": [".vbenc"],
+        "aliases": [
+          "VBENC",
+          "vbenc"
+        ],
+        "extensions": [
+          ".vbenc"
+        ],
         "configuration": "./language-configuration.json"
       }
     ],
@@ -51,7 +56,7 @@
       "activitybar": [
         {
           "id": "sqlSearch",
-          "title": "SQL Search",
+          "title": "Field Search",
           "icon": "media/icon.svg"
         }
       ]
@@ -72,6 +77,7 @@
     ]
   },
   "scripts": {
+    "test": "node ./out/test/runTest.js",
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
@@ -81,7 +87,9 @@
     "@types/node": "^16.0.0",
     "@types/vscode": "^1.60.0",
     "typescript": "^4.0.0",
-    "vscode": "^1.1.37"
+    "vscode": "^1.1.34"
+  },
+  "dependencies": {
+    "mysql": "^2.18.1"
   }
 }
-
